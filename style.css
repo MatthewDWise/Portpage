@@ -1,0 +1,122 @@
+body{
+  margin: 0;
+  font-family: 'Franklin Gotchic Medium', 'Arial Narrow', Arial;
+}
+/* style for header text*/
+header {
+  text-align: center;
+  background-color: rgb(148, 108, 108);
+  color: whitesmoke;
+  padding: 30px;
+  font-family: 'Trebuchet MS', Arial, sans-serif; 
+}
+/*style for H1 tag in header*/
+header h1{
+  font-size: 54px;
+}
+/*intro section styling*/
+#intro{
+  text-align: center;
+  font-family: Georgia, 'Trebuchet MS', sans-serif;
+  line-height: 1.7em;
+  font-weight: 550;
+    }
+
+  #intro p{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 19px;
+  }
+/*intro section h3 tag styling*/
+#intro h3{
+  font-size: 25px;
+  color: rgb(148, 108, 108);
+  }
+
+
+/*styling for profile picture creating rounded image with black border */
+#intro img{
+  border-radius: 50%;
+  border: 5px solid black;
+  margin-top: 30px;
+}
+/*styling for about section */
+#about {
+  background-color: rgb(148, 108, 108);
+  color: whitesmoke;
+  text-align: center;
+  font-family: Georgia, 'Trebuchet MS', sans-serif;
+  padding: 30px;
+  line-height: 1.7em;
+  }
+  #about h3{
+  font-size: 25px;
+  color: whitesmoke;
+}
+  #about p{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 19px;
+  }
+
+  #portfolio{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  /* styling for items */
+  .item{
+    flex: 1;
+    flex-wrap: wrap;
+    margin: 10px;
+    text-align: center;
+    }
+
+  .item img{
+    width: 50%;
+    height: 50%;
+  }  
+
+  .item h4{
+    text-decoration: underline;
+  }
+#contact {
+  display: flex;
+  flex-direction: row;
+  font-size: 19px;  
+}
+
+a:link{color: rgb(148, 108, 108);}
+a:visited{color: palevioletred;}
+a:hover{color: yellowgreen;}
+a:active{color: orchid;}
+
+#contact h3{
+  text-align: center;
+  font-size: 25px;
+  padding:15px;
+  
+}
+.item-contact{
+  flex: 1;
+  text-align: center;
+  font-size: 19px;
+  padding-top: 200px;
+}
+.item-double{
+  flex: 2;
+  padding: 100px;
+}
+
+
+
+  /* for desktop display */
+  @media all and (min-width: 800px){
+
+    #portfolio{
+      display: flex;
+      flex-direction: row;
+    }
+  }
