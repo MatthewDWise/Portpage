@@ -8,12 +8,20 @@
   </head>
   <body>
     <header>
-<h1>Matthew Wise</h1>
-<h2>Software Engineering Student</h2>
+<h1>Matthew Wise<h1>
+<h2>Software Engineering Student<h2>
+  <nav>
+    <ul id="menu">
+    <li><a href="#header">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  </nav>
   </header>
   <main>
     <section id="intro">
-<img src="images/profilepic.jpg" width="300" height= "300" alt="Profile picture of myself">
+<img src="/images/profilepic.jpg" width="300" height= "300" alt="Profile picture of myself">
 <h3>Hello!  My name is Matt Wise</h3>
 <p>I am currently enrolled with Thinkful in the Software Engineering program.  I am an aspiring Web Developer, located in Drexel Hill, PA, with an interest in gaming.<p>
 
@@ -61,7 +69,15 @@ This is the app me and my team built to find good group activiites!  It'll help 
 <p><a href="mailto:matthewdwise@gmail.com">Email me</a></p>
 </div>
 <div class="item-contact">
-   -- Contact form will go here --
+   <form action="https://formspree.io/xnqglajk" method="POST">
+   <label for="user-name">Name:</label>
+   <input id="user-name" type="text name="name">
+
+   <label for="user-email">Email:</label>
+  <input id="user-email" type="text" name="email">
+
+  <label for="user-message">Message:</label><textarea id="user-message" name="message"></textarea><button type="submit" value="send">Submit</button>
+  </form>
   </div>
 </section>
 </main>
