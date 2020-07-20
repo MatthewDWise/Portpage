@@ -22,6 +22,7 @@ header h1{
   font-family: Georgia, 'Trebuchet MS', sans-serif;
   line-height: 1.7em;
   font-weight: 550;
+  padding-bottom: 30px;
     }
 
   #intro p{
@@ -51,6 +52,7 @@ header h1{
   font-family: Georgia, 'Trebuchet MS', sans-serif;
   padding: 30px;
   line-height: 1.7em;
+  padding-bottom:30px;
  }
   #about h3{
   font-size: 25px;
@@ -69,6 +71,7 @@ header h1{
     flex-wrap: wrap;
     margin-left: 20px;
     margin-right: 20px;
+    padding-bottom: 30px;
   }
   /* styling for items */
   .item{
