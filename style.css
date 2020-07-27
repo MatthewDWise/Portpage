@@ -160,9 +160,15 @@ for textarea {
   height: 165px;
 }
 
+form h3 {
+  text-align: center;
+  color: rgb(148, 108, 108);
+}
+
 footer {
   background-color: black;
   margin: 20px;
+  color: whitesmoke;
 }
 
   /* for desktop display */
