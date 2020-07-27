@@ -159,6 +159,12 @@ form textarea {
 for textarea {
   height: 165px;
 }
+
+footer {
+  background-color: black;
+  margin: 20px;
+}
+
   /* for desktop display */
   @media all and (min-width: 800px){
     header{
@@ -179,3 +185,5 @@ for textarea {
       flex-direction: row;
     }
   }
+
+
