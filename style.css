@@ -160,7 +160,7 @@ for textarea {
   height: 165px;
 }
 
-form h3 {
+.item-contact h3 {
   text-align: center;
   color: rgb(148, 108, 108);
 }
